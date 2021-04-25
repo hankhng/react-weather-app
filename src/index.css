@@ -9,14 +9,14 @@ body {
 }
 
 .app {
-  background-image: url("./assets/cold-bg.jpg");
+  background-image: url("./assets/cold-mountains.jpeg");
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease;
 }
 
 .app.warm {
-  background-image: url("./assets/warm-bg.jpg");
+  background-image: url("./assets/sunflower.jpeg");
 }
 
 main {
@@ -100,7 +100,7 @@ main {
 }
 
 .weather-box .weather {
-  color: #FFF;
+  color: #fff;
   font-size: 48px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
