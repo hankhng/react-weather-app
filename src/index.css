@@ -9,14 +9,14 @@ body {
 }
 
 .app {
-  background-image: url("./assets/cold-mountains.jpeg");
+  background-image: url("./assets/cold-bg.jpeg");
   background-size: cover;
   background-position: bottom;
-  transition: 0.4 ease;
+  transition: 0.2s ease-out;
 }
 
 .app.warm {
-  background-image: url("./assets/sunflower.jpeg");
+  background-image: url("./assets/hot.jpeg");
 }
 
 main {
